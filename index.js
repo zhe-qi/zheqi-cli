@@ -32,6 +32,10 @@ program
             if (err) return console.log('项目已存在或存储库错误！')
             // 创建成功 提示
             console.log('vue项目创建成功')
+            console.log('cd ' + projectName)
+            console.log('pnpm install')
+            console.log('pnpm dev')
+            console.log('or npm install but delete pnpm-lock.yaml')
           }
         )
         break
