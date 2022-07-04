@@ -1,0 +1,18 @@
+{
+  "name": "@zheqi/cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "vue-cli"
+  ],
+  "author": "zhe-qi",
+  "license": "MIT",
+  "bin": {
+    "zq": "index.js"
+  },
+  "dependencies": {
+    "commander": "^9.3.0",
+    "download-git-repo": "^3.0.2"
+  }
+}
